@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    scrollbar-width: none;
+}
+
+.border:hover {
+    transition: all 0.3s ease;
+    background-color:#5C676E;
+}
+
+.container {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: aqua;
+}
+
+.right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 13dvh;
+    width: 85dvw;
+    background-color: black;
+}
+
+.left {
+    height: 100dvh;
+    width: 15dvw;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main {
+    position: absolute;
+    top: 20dvh;
+    left: 15dvw;
+    height: 80dvh;
+    width: 85dvw;
+    background-color:#555555;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 10px;
+    padding: 5px;
+    height: 350px;
+    width: 400px;
+    background-color:rgb(178, 190, 181); 
+}
+
+.videos {
+    height: 280px;
+    width: 400px;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+}
+
+
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 15dvh;
+    width: 85dvw;
+    background-color:#343434;
+}
+
+.dot {
+    color: white;
+    height: 40px;
+    width: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 70px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50%;
+}
+
+.bar {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}
+
+#bar {
+    width: 40dvw;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color:white;
+    font-size: 20px;
+}
+
+.icon {
+    color: black;
+    width: 3dvw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.icon i {
+    font-size: 18px;
+}
+
+.microphone {
+    width: 3dvw;
+    height: 40px;
+    position: relative;
+    right: 90px;
+}
+
+.micro:hover{
+    color:white;
+}
+
+.log:hover{
+    color: white;
+}
+
+.micro {
+    color: black;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.micro i {
+    font-size: 18px;
+}
+
+.sign {
+    height: 40px;
+    width: 7dvw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.log {
+    height: 40px;
+    width: 10dvw;
+    border-radius: 25px;
+}
+
+
+
+ .mid {
+    position: fixed;
+    top: 13dvh;
+    left: 15dvw;
+    height: 7dvh;
+    width: 85dvw;
+    background-color: rgb(54, 69, 79);
+    color: black;
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    scrollbar-width: none; 
+    /* padding:0px; */
+}
+
+
+
+.mids {
+ margin: 5px;
+    border: none;
+    border-radius: 15px;
+    padding: 6px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: wheat;
+}
+
+.mids:hover{
+
+    transition: all 0.2s ease;
+    background-color: white;
+    
+}
+.line{
+    height:50px;
+    width:2dvw;
+    display: flex;
+    align-items: center;
+     color: white;
+    /* padding:10px; */
+}
+
+.tops{
+    height:50px;
+    width:15dvw;
+    display:flex;
+    position:fixed;
+    left:0;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+.images{
+    height:auto;
+    width:13dvw;
+}
+
+.img{
+    height:90%;
+    width:99%;
+}
+
+.side {
+    overflow: scroll;
+    display:flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    top: 50px;
+     width:15dvw;
+}
+.side {
+    overflow-y: auto;  
+    display: flex;
+    position: fixed; 
+    align-items: flex-start;
+    flex-direction: column;
+    height: 85dvh; 
+    top: 10dvh; 
+    width: 15dvw;
+    gap: 0;
+    padding: 0;
+}
+
+
+
+.dis{
+     width:15dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+
+
+.dis i{
+    position: relative;
+    left:10px;
+    font-size: 30px;
+    color: white;
+display: flex;
+justify-content: center;
+}
+
+.dis p{
+      color: white;
+      margin:20px;
+    font-size: 20px;
+}
+
+.box:hover{
+    border:2px solid white;
+}
+
+.dis:hover{
+    transition: all 1s ease;
+    background-color: gray;
+    border-bottom:2px solid white;
+}
+
