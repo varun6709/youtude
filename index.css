@@ -145,6 +145,7 @@
 
 .log:hover{
     color: white;
+font-size:20px;
 }
 
 .micro {
@@ -302,4 +303,5 @@ justify-content: center;
     background-color: gray;
     border-bottom:2px solid white;
 }
+
 
