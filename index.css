@@ -1,12 +1,12 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     scrollbar-width: none;
 }
 
 .border:hover {
-    transition: all 0.3s ease;
-    background-color:#5C676E;
+    /* transition: all 0.3s ease;
+    background-color:#232424; */
 }
 
 .container {
@@ -39,7 +39,7 @@
     left: 15dvw;
     height: 80dvh;
     width: 85dvw;
-    background-color:#555555;
+    background-color:#101010;
     overflow: scroll;
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +50,7 @@
     padding: 5px;
     height: 350px;
     width: 400px;
-    background-color:rgb(178, 190, 181); 
+    background-color:rgb(19, 20, 19);
 }
 
 .videos {
@@ -67,9 +67,15 @@
     font-size: 20px;
     font-weight: 10px;
     text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;    
 }
 
-
+.dot p{
+    position: relative;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
 
 .right {
     display: flex;
@@ -80,7 +86,7 @@
     top: 0;
     height: 15dvh;
     width: 85dvw;
-    background-color:#343434;
+    background-color:#0b0a0a;
 }
 
 .dot {
@@ -101,6 +107,7 @@
     align-items: center;
     height: 40px;
     width: 50%;
+    border: none;
 }
 
 .bar {
@@ -144,8 +151,9 @@
 }
 
 .log:hover{
-    color: white;
-font-size:20px;
+    color: black;
+    border: none;
+    font-size:20px;
 }
 
 .micro {
@@ -185,7 +193,7 @@ font-size:20px;
     left: 15dvw;
     height: 7dvh;
     width: 85dvw;
-    background-color: rgb(54, 69, 79);
+    background-color: rgb(13, 13, 13);
     color: black;
     overflow-x: auto;
     display: flex;
@@ -206,13 +214,15 @@ font-size:20px;
     font-size: 14px;
     cursor: pointer;
     white-space: nowrap;
-    background-color: wheat;
+    background-color: rgb(34, 33, 32);
+    color: white;
 }
 
 .mids:hover{
 
-    transition: all 0.2s ease;
+    transition: all 0.6s ease;
     background-color: white;
+    color: black;
     
 }
 .line{
@@ -271,7 +281,7 @@ font-size:20px;
 
 
 .dis{
-     width:15dvw;
+    width:15dvw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +305,9 @@ justify-content: center;
 }
 
 .box:hover{
-    border:2px solid white;
+    border:2px solid rgb(24, 24, 24);
+    border-radius: 15px;
+
 }
 
 .dis:hover{
@@ -303,5 +315,4 @@ justify-content: center;
     background-color: gray;
     border-bottom:2px solid white;
 }
-
 
